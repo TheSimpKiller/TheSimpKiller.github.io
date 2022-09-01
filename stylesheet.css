@@ -1,0 +1,29 @@
+#titrePage 
+{
+color: red;
+font-size: 48px;
+text-align: center;
+}
+
+.paragraphe 
+{
+text-align: justify;
+font-style: italic;
+}
+
+#one
+{
+font-size: 32px;
+color: purple;
+}
+
+.onetofour
+{
+font-size: 32px;
+color: green;
+}
+
+.titre:hover 
+{
+color: red;
+}
