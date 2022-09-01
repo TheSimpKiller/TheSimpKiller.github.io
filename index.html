@@ -1,6 +1,34 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            .topnav 
+            {
+                background-color: #333;
+                overflow: hidden;
+            }
+
+            .topnav a 
+            {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+            .topnav a:hover
+            {
+                background-color: #ddd;
+                color: black;
+            }
+
+            .topnav a.active 
+            {
+                color: white;
+            }
+        </style>
         <meta charset="utf-8">
         <title>Mon portfolio</title>
     </head>
@@ -9,17 +37,18 @@
             <center><b><h1 id="Return">Etienne Beaulieu</h1></b></center>
             <center><p>"Do not pray for an easy life, pray for the strenght to endure a difficult one."</p></center>
             <center><i><p>-Bruce Lee</p></i></center>
+            <br>
             <center><img src="Ma photo.jpg" alt="Le beau bonhomme est partit..." width="200"></center>
-            <hr>
+            <br>
         </header>
         <article>
             <br>
-            <ul>
-                <li><a href="#Presentation">Presentation</a></li>
-                <li><a href="#Mes loisirs">Mes loisirs</a></li>
-                <li><a href="#Mes exercises">Mes exercises</a></li>
-                <li><a href="#Mes voisins de table">Mes voisins de table</a></li>
-            </ul>
+            <div class="topnav">
+                <a class="active" href="#Presentation">Presentation</a>
+                <a href="#Mes loisirs">Mes loisirs</a>
+                <a href="#Mes exercises">Mes exercises</a>
+                <a href="#Mes voisins de table">Mes voisins de table</a>
+            </div>
             <br>
             <h2 id="Presentation">Presentation</h2>
             <p>Je suis un ancient travailleur de la construction de 26 ans, j'ai toujours voulu faire de l'informatique. J'ai eu un accident de voiture qui a magane mon genoux, c'est pour ca que je fais un retour aux etudes, la pluspart des jobs de construction sont trop dures pour moi maintenant.</p>
@@ -36,6 +65,8 @@
             <ul>
                 <li><a href="cours 1.html">01 - Hello, World!</a></li>
                 <li><a href="#Return">02 - Portfolio</a></li>
+                <li><a href="https://thesimpkiller.github.io/">03 - GitHub</a></li>
+                <li><a href="../Exercise 4/ex04_selecteur_css.html">04 - Selecteurs de css</a></li>
             </ul>
             <br>
             <h2 id="Mes voisins de table">Mes voisins de table</h2>
